@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1)) /* #111827 */;
+}
+
+.voiceline-icon {
+    width: 7rem;
+    height: auto;
+    display:inline-block;
+}
+
+@keyframes bounce {
+  0%,100% { transform: translateY(0); }
+  50%     { transform: translateY(-20px); }
+}
+
+.bounce-once {
+  animation: bounce 0.6s ease 1;
+}
