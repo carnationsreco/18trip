@@ -1,5 +1,5 @@
 img {
-    width: 40rem;
+    width: 45vw;
     height: auto;
     border-radius: 0.5rem;
 }
@@ -30,4 +30,18 @@ h1 {
 
 #resume-table {
     width: 100%;
+}
+
+/* Smaller screens */
+@media (min-width: 320px) and (max-width: 768px) {
+  #tl-content {
+    flex-direction: column;    /* image left, text right */
+    align-items: flex-start;
+  }
+
+  #tl-content img {
+    width: 80vw;
+    height: auto;
+  }
+
 }
