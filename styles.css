@@ -1,5 +1,6 @@
 body {
     background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1)) /* #111827 */;
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1)) /* #ffffff */;
 }
 
 .voiceline-icon {
@@ -15,4 +16,13 @@ body {
 
 .bounce-once {
   animation: bounce 0.6s ease 1;
+}
+
+#nav-btn {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: rgb(31 41 55 / var(--tw-bg-opacity, 1)) /* #1f2937 */;
+    color: rgb(255 255 255 / var(--tw-text-opacity, 1)) /* #ffffff */;
+    text-decoration: none;
+    border-radius: 0.25rem;
 }

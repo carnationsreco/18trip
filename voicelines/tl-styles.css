@@ -1,0 +1,33 @@
+img {
+    width: 40rem;
+    height: auto;
+    border-radius: 0.5rem;
+}
+
+#contents {
+    display: flex;
+    flex-direction: column;
+    margin: 6rem;
+    gap: 4rem;
+}
+
+#tl-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+
+#left {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#resume-table {
+    width: 100%;
+}
