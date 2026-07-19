@@ -47,7 +47,7 @@ h3 {
 
 iframe {
     width: 45vw;
-    height: 45vh;
+    height: 22.5vw;
     border: none;
 }
 
@@ -58,9 +58,9 @@ iframe {
     align-items: flex-start;
   }
 
-  #tl-content img {
+  #tl-content img, #tl-content iframe {
     width: 80vw;
-    height: auto;
+    height: 45vw;
   }
 
 }
