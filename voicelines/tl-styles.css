@@ -7,15 +7,15 @@ img {
 #contents {
     display: flex;
     flex-direction: column;
-    margin: 6rem;
-    gap: 4rem;
+    margin: 2vw;
+    gap: 4vw;
 }
 
 #tl-content {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 4rem;
+    gap: 4vw;
 }
 
 #left {
